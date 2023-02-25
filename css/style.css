@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.block:not(.first) {
+  margin-bottom: 20px;
+  background: #211e1e;
+  height: 200px;
+}
+
+.first {
+  margin-bottom: 20px;
+  background: #211e1e;
+  height: 100px;
+}

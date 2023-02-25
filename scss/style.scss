@@ -1,0 +1,18 @@
+$bgColor: #211e1e;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.block:not(.first) {
+    margin-bottom: 20px;
+    background: $bgColor;
+    height: 200px;
+}
+
+.first {
+    margin-bottom: 20px;
+    background: $bgColor;
+    height: 100px;
+}
+
